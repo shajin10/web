@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet"> 
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Work+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <script src="/anime.min.js"></script>
+    <link rel="stylesheet" href="/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div class="bod" >
+
+  <!-- https://github.com/sha280 -->
+
+ <a href="https://www.instagram.com/_shajin_sha/"><img class="img-1" src="https://img.icons8.com/ios/25/000000/instagram-new--v1.png"/></a>
+
+ <a href="https://github.com/sha280"><img class="img-2" src="https://img.icons8.com/material-outlined/25/000000/github.png"/></a>
+
+  <h1 class="trip-text" >get ready to fly</h1>
+<button class="but" onclick="ani()" >Go</button>
+    
+
+<svg  class="Layer_1" 
+width="1480px" height="800px">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="17.5122" y1="324.9854" x2="1298.5122" y2="324.9854">
+	<stop  offset="0" style="stop-color:#ED1E79"/>
+	<stop  offset="1" style="stop-color:#F15A24"/>
+</linearGradient>
+<path class="po" fill="url(#SVGID_1_)" d='M1780,409.115c0,0-488.47,225.115-1119.613,0c-631.143-225.115-1157.258,0-1157.258,0V-101H1780
+V409.115z'/>
+</svg>
+</div>
+<script>
+
+function ani(){
+   var js = anime({
+  targets:".po",
+  d:[
+    {value:'M8100,9069.155c0,0-498.47,225.115-1119.613,0c-631.143-225.115-1157.258,0-1157.258,0V-101H1780V409.115z'}
+  ],
+  // points: ['1284.5,804 -1,804 -1,0.5 238.111,392.591 1280,0 ',],
+  loop:false,
+  direction: 'alternate',
+  // easing: 'easeInOutSine',
+  // easing: 'easeInOutQuad',
+  easing: 'easeInOutExpo',
+  // easing: 'easeOutQuad',
+  duration: 5000,
+})}
+
+</script>
+</html>
